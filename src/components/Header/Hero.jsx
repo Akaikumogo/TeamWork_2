@@ -14,15 +14,15 @@ const Hero = () => {
         </p>
         <div className="header-hero-text_button">
           <button className="header-hero-text_button--btn">
-            <img src="src/img/g-play.png" alt="" />
+            <img src="src/components/Header/img/g-play.png" alt="" />
           </button>
           <button className="header-hero-text_button--btn">
-            <img src="src/img/a-store.png" alt="" />
+            <img src="src/components/Header/img/a-store.png" alt="" />
           </button>
         </div>
       </div>
       <div className="header-hero_img">
-        <img src="src/img/phones.png" alt="" />
+        <img src="src/components/Header/img/phones.png" alt="" />
         <img src="" alt="" />
       </div>
     </div>
