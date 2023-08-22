@@ -7,6 +7,8 @@ function App() {
   return (
     <>
       <Header />
+      <Client/>
+      <Customer/>
     </>
   );
 export default App;
