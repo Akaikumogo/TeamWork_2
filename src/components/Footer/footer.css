@@ -2,6 +2,9 @@
   background: #4a99d3;
   height: 350px;
 }
+.footerBg > .container {
+  padding-top: 50px;
+}
 
 .footer {
   display: flex;

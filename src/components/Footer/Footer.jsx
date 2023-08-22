@@ -1,23 +1,20 @@
 import logoFooter from "../../images/logo.svg";
+import styles from "./footer.css";
 function Footer() {
   return (
-    <div className={styles.footerBg}>
+    <div className="footerBg">
       <div className="container">
-        <div className={styles.footer}>
-          <div className={styles.logo}>
-            <img
-              src={logoFooter}
-              className={styles.logoFooter}
-              alt="logoFooter"
-            />
+        <div className="footer">
+          <div className="logo">
+            <img src={logoFooter} className="logoFooter" alt="logoFooter" />
           </div>
-          <div className={styles.quickLinks}>
+          <div className="quickLinks">
             <h2>Quick Links</h2>
             <hr />
             <h3>Sign Up</h3>
             <h3>About Us</h3>
           </div>
-          <div className={styles.others}>
+          <div className="others">
             <h2>Others</h2>
             <hr />
             <h3>User FAQs</h3>
@@ -26,14 +23,14 @@ function Footer() {
             <h3>Privacy Policy</h3>
             <h3>Terms and Conditions</h3>
           </div>
-          <div className={styles.products}>
+          <div className="products">
             <h2>Products</h2>
             <hr />
             <h3>Send</h3>
             <h3>Receive</h3>
             <h3>Buy</h3>
           </div>
-          <div className={styles.subs}>
+          <div className="subs">
             <p>
               Subscribe to our newsletter and be the first to know about our
               updates
