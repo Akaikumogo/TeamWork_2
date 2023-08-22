@@ -4,11 +4,17 @@ import Header from "./components/Header/Header";
 // import Customer from "./components/Customer/Customer";
 // import Footer from "./components/Footer/Footer";
 function App() {
+<<<<<<< HEAD
   return (
     <>
       <Header />
     </>
   );
+=======
+  return <>
+  <Customer />
+  </>;
+>>>>>>> main
 }
 
 export default App;
