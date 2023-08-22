@@ -1,4 +1,5 @@
-import React from "react";
+import clien from "./clientimg/client_img.png";
+import quote from "./clientimg/quote.png";
 import "./client.css";
 
 function Client() {
@@ -9,18 +10,10 @@ function Client() {
           <h4 className="client_title">What our client say</h4>
 
           <div className="client_min_div">
-            <img
-              className="client_img"
-              src="./clientimg/client_img.png"
-              alt="client_img"
-            />
+            <img className="client_img" src={clien} alt="client_img" />
 
             <div className="client_massega_div">
-              <img
-                className="quote-img"
-                src="./clientimg/quote.png"
-                alt="message_img"
-              />
+              <img className="quote-img" src={quote} alt="message_img" />
 
               <p className="client_text">
                 Amet in elementum nulla scelerisque dui, egestas at. Elit

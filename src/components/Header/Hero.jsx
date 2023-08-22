@@ -1,4 +1,6 @@
-import React from "react";
+import a_store from "./img/a-store.png";
+import g_play from "./img/g-play.png";
+import phones from "./img/phones.png";
 
 const Hero = () => {
   return (
@@ -14,16 +16,15 @@ const Hero = () => {
         </p>
         <div className="header-hero-text_button">
           <button className="header-hero-text_button--btn">
-            <img src="./img/g-play.png" alt="" />
+            <img src={g_play} alt="" />
           </button>
           <button className="header-hero-text_button--btn">
-            <img src="./img/a-store.png" alt="" />
+            <img src={a_store} alt="" />
           </button>
         </div>
       </div>
       <div className="header-hero_img">
-        <img src="./img/phones.png" alt="" />
-
+        <img src={phones} alt="" />
       </div>
     </div>
   );
