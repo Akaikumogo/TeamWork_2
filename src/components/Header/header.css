@@ -78,6 +78,7 @@
 .header-hero-text_button {
   width: 60%;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
 }
 
