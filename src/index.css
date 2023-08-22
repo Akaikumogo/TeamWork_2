@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 .container {
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
 a {
   text-decoration: none;
-
 }
