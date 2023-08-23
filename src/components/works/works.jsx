@@ -40,4 +40,4 @@ function works() {
     </div>
   );
 }
-export default works;
+export default Works;
