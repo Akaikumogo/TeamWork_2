@@ -1,0 +1,46 @@
+.container1 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img1 {
+  width: 60px;
+}
+
+.work_title1 {
+  padding-top: 80px;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 26.99px;
+  color: #4a99d3;
+}
+
+.card_wrapper1 {
+  width: 950px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_desc1 {
+  width: 224px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.card_title1 {
+  padding-top: 20px;
+}
